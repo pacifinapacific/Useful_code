@@ -28,7 +28,6 @@ COCO_PERSON_KEYPOINT_NAMES = [
 
 """
 
-Key_point_detector=models.detection.keypointrcnn_resnet50_fpn(pretrained=True)
 
 class Pose_Detector():
 	def __init__(self,cuda=True):
